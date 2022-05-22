@@ -11,6 +11,7 @@ dependencies {
     implementation 'org.testcontainers:selenium:1.17.2'
     implementation 'org.touchbit.retrofit.veslo:allure:1.2.0'
     implementation 'com.codeborne:selenide:6.5.0'
+    implementation 'io.rest-assured:rest-assured-parent:5.0.1'
 
 
 
