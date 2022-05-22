@@ -1,3 +1,17 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "MyFirstProgram"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.6.0'
+    implementation 'org.testcontainers:selenium:1.17.2'
+    implementation 'org.touchbit.retrofit.veslo:allure:1.2.0'
+    implementation 'com.codeborne:selenide:6.5.0'
+
+
+
+}
